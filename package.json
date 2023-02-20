@@ -6,7 +6,7 @@
     "npm": "8.4.0"
   },
   "scripts": {
-    "build": "./node_modules/.bin/ts-node build.ts",
+    "build": "./node_modules/.bin/ts-node build.ts build --output public",
     "lint": "eslint . --ext .ts",
     "start": "npm run build && node dist/index.js --env=production",
     "dev": "nodemon",
